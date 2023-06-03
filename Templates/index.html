@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iris Data Prediction System</title>
+</head>
+<body style="background-color: rgb(31, 164, 164);">
+
+    <body>
+        <style>
+            body {background-image: url("https://cdn.pixabay.com/photo/2014/01/22/19/44/flower-field-250016_640.jpg");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+                     
+
+                
+            }
+        </style>
+            </head>
+    
+
+    <h1>Iris Data Prediction System</h1>
+
+    <form method = "GET" action = "/predict_flower">
+
+        <label>Id:</label>
+        <input type = "text" name = "Id">
+        </select>
+
+        </br>
+        </br>
+
+    
+
+        <label>SepalLengthCm:</label>
+        <input type = "text" name = "SepalLengthCm">
+        </select>
+
+        </br>
+        </br>
+
+        <label>SepalWidthCm:</label>
+        <input type = "text" name = "SepalWidthCm">
+        </select>
+
+        </br>
+        </br>
+
+        <label>PetalLengthCm:</label>
+        <input type = "text" name = "PetalLengthCm">
+        </select>
+
+        </br>
+        </br>
+
+        <label>PetalWidthCm:</label>
+        <input type = "text" name = "PetalWidthCm">
+        </select>
+
+
+        </br>
+        </br>
+
+
+        </br>
+        <input type = "submit" value = "SUBMIT">
+
+        </br>
+
+        <p>Your Predicted Flower is <b></b>{{prediction}}</p>
+
+        
+    </form>
+
+
+</body>
+</html>
